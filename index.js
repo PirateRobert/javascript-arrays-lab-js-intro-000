@@ -7,8 +7,15 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
 }
 function destructivelyRemoveLastKitten(){
-
+  kittens.pop()
 }
 function destructivelyRemoveFirstKitten(){
-
+  kittens.shift()
+}
+function appendKitten(name){
+  var newarray = [...array,name]
+  return newarray
+}
+function prependKitten(name){
+  var newarray = [name,...array]
 }
