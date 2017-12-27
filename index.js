@@ -19,3 +19,6 @@ function appendKitten(name){
 function prependKitten(name){
   var newarray = [name,...array]
 }
+function removeLastKitten(){
+  
+}
