@@ -20,5 +20,8 @@ function prependKitten(name){
   var newarray = [name,...array]
 }
 function removeLastKitten(){
+
+}
+function removeFirstKitten(){
   
 }
